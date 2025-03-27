@@ -5,32 +5,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Addie Vr Scene</title>
-   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script> 
-<script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script> 
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
 </head>
 
 <body>
-<a-scene>
+  <a-scene>
 
-  <a-sky src="images/desert.jpg" title ="link or credit information" ></a-sky>
-  <a-cylinder id="floor" position="0 0 0" radius="7.5" src="images/wood.jpg" height="0.1"></a-cylinder>
-  <a-box id="wall1" position=" 0  1.473  4.907" rotation="0  0  0" scale="10  3  0.2 " src="images/brick.jpg"></a-box>
-  <a-box id="wall2" position=" 0  1.473  -4.907" rotation="0  0  0" scale="10  3  0.2 " src="images/brick.jpg"></a-box>
-  <a-box id="wall3" position="5.049  1.454  -0.008" rotation="0  -90  0" scale="10  3  0.2" src="images/brick.jpg"></a-box>
-  <a-box id="wall4" position="-5.049  1.454  -0.008" rotation="0  -90  0" scale="10  3  0.2" src="images/brick.jpg"></a-box>
-  <a-cylinder id="triangle_front" segments-radial="3" position="0  3.874 4.907" rotation="-90  0  0" scale="5.774  0.2  1.8" color="white"></a-cylinder>
-    <a-cylinder id="triangle_back" segments-radial="3" position="0  3.874 -4.90" rotation="-90  0  0" scale="5.774  0.2  1.8" color="white"></a-cylinder>
-  <a-box id="roof_right" position="2.580  4.328  0" rotation="28.433  90  0" scale="10.931 0.20  6.110" color="white"></a-box>
-  <a-box id="roof_right" position=" -2.599  4.3321  -0.017 " rotation="28.433  -90  0" scale="10.931 0.20  6.130"   color="white"></a-box>
-   <a-plane id="art1" src="images/lake.jpg" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
-  <a-obj-model id="3dModel1" src="images/couch1.obj" mtl="images/couch1.mtl" position="-2.345 -0.108 -4.872" rotation="-90.000 0.000 0.000" scale="0.050 0.050 0.050"></a-obj-model>
-  <a-obj-model id="3dModel2" src="images/couch2.mtl" mtl="images/couch2.mtl" position="3.350 -0.108 -4.933" rotation="-90.000 0.000 0.000" scale="0.050 0.050 0.050"></a-obj-model>
-   <a-obj-model id="3dModel3" src="images/tinker.obj" mtl="images/obj.mtl" position="3.524 -0.103 2.429" rotation="-90.000 0.000 0.000" scale="0.050 0.050 0.050"></a-obj-model>
-   <a-obj-model id="3dModel4" src="images/tinker.obj" mtl="images/obj.mtl" position="-2.316 -0.110 2.307" rotation="-90.000 0.000 0.000" scale="0.050 0.050 0.050"></a-obj-model>
-   <a-obj-model id="3dModel5" src="images/tinker.obj" mtl="images/obj.mtl" position="-2.316 -0.110 2.307" rotation="-90.000 0.000 0.000" scale="0.050 0.050 0.050"></a-obj-model>
+    <a-sky src="images/desert.jpg" title="link or credit information"></a-sky>
 
-  
-</a-scene>
+    <a-cylinder id="floor" position="0 0 0" radius="7.5" src="images/wood.jpg" height="0.1"></a-cylinder>
+    <a-box id="wall1" position=" 0  1.473  4.907" rotation="0  0  0" scale="10  3  0.2 " src="images/brick.jpg"></a-box>
+    <a-box id="wall2" position=" 0  1.473  -4.907" rotation="0  0  0" scale="10  3  0.2 "
+      src="images/brick.jpg"></a-box>
+    <a-box id="wall3" position="5.049  1.454  -0.008" rotation="0  -90  0" scale="10  3  0.2"
+      src="images/brick.jpg"></a-box>
+    <a-box id="wall4" position="-5.049  1.454  -0.008" rotation="0  -90  0" scale="10  3  0.2"
+      src="images/brick.jpg"></a-box>
+    <a-cylinder id="triangle_front" segments-radial="3" position="0  3.874 4.907" rotation="-90  0  0"
+      scale="5.774  0.2  1.8" color="white"></a-cylinder>
+    <a-cylinder id="triangle_back" segments-radial="3" position="0  3.874 -4.90" rotation="-90  0  0"
+      scale="5.774  0.2  1.8" color="white"></a-cylinder>
+    <a-box id="roof_right" position="2.580  4.328  0" rotation="28.433  90  0" scale="10.931 0.20  6.110"
+      color="white"></a-box>
+    <a-box id="roof_right" position=" -2.599  4.3321  -0.017 " rotation="28.433  -90  0" scale="10.931 0.20  6.130"
+      color="white"></a-box>
+
+    <a-plane id="art1" src="images/lake.jpg" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
+
+   <a-obj-model id="3dModel1" src="images/couch1.obj" mtl="images/couch1.mtl" position="-2.345 -0.108 -4.872" rotation="-90.000 0.000 0.000" scale="0.05 0.05 0.05"></a-obj-model>
+  <a-obj-model id="3dModel2" src="images/couch2.obj" mtl="images/couch2.mtl" position="3.350 -0.108 -4.933" rotation="-90.000 0.000 0.000" scale="0.05 0.05 0.05"></a-obj-model>
+ <a-obj-model id="3dModel3" src="images/elephant.obj" mtl="images/elephant.mtl" position="4.010 -0.067 3.602" rotation="-90.000 0.000 0.000" scale="0.030 0.030 0.030"></a-obj-model>
+   
+
+
+  </a-scene>
 </body>
 
 </html>
